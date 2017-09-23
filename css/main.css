@@ -1105,6 +1105,7 @@ button {
 	border-bottom: 1px dashed #e1e1e1;
 	background: url(../img/train-list-01.png) no-repeat;
 	padding-left: 20px;
+	background-position-y: 50%;
 }
 
 .train01 li a{
@@ -1125,6 +1126,254 @@ button {
 .train01-time{
 	float: right;
 }
+
+.content-right-footer{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+
+/*课程*/
+
+.class01 li a img{
+	display: block;
+	float: left;
+	width: 185px;
+	height: 128px;
+}
+
+.class01 li{
+	font-size: 14px;
+	overflow: hidden;
+	line-height: 65px;
+	border-bottom: 1px dashed #e1e1e1;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.class01 li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: black;
+}
+
+.class01 li a:hover{
+	color: #b81300;
+}
+
+.class-info{
+	padding-left: 210px;
+}
+
+.class-info h3{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.class-info {
+	font-size: 14px;
+	color: #646464;
+}
+
+.class-info div{
+	line-height: 40px;
+}
+
+.class-info p{
+	line-height:30px;
+}
+
+
+/*教师*/
+
+.teacher-style01 ul{
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-top: 30px;
+}
+
+.teacher-style01 ul img{
+	width: 226px;
+	height: 288px;
+}
+
+.teacher-style01 ul div{
+	margin-top: 10px;
+	width: 226px;
+	height: 46px;
+	background-color: rgb(237,237,237);
+	font-size: 16px;
+	text-align: center;
+	line-height: 46px;
+}
+
+.teacher-style01 ul li{
+	margin-bottom: 30px;
+}
+
+
+.teacher-style01 ul li a{
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.teacher-style01 ul li a:hover .teacher-stylebg{
+	display: block;	
+}
+
+.teacher-style01 .teacher-stylebg{
+	background: url(../img/teacher-stylebg-01.png) no-repeat;
+	width: 226px;
+	height: 288px;
+	position: absolute;
+	top: 0;
+	margin: 0;
+	display: none;
+}
+
+
+/*photo*/
+
+.photo01 ul{
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-top: 30px;
+}
+
+.photo01 ul img{
+	width: 255px;
+	height: 191px;
+}
+
+
+.photo01 ul li{
+	margin-bottom: 30px;
+}
+
+
+.photo01 ul li a{
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.photo01 ul li a:hover .photo-bg{
+	display: block;	
+}
+
+.photo01 .photo-bg{
+	background: url(../img/photo-bg.png) no-repeat;
+	width: 255px;
+	height: 191px;
+	position: absolute;
+	top: 0;
+	margin: 0;
+	display: none;
+}
+
+.detail{
+	width: 810px;
+}
+
+.detail .detail-header{
+	margin-top:30px;
+}
+
+.detail .detail-header h2{
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+}
+
+ .detail-title{
+	font-size: 14px;
+	overflow: hidden;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #6e6e6e;
+}
+
+.detail-title01{
+	float: left;
+	margin-left: 120px;
+}
+
+.detail-title02{
+	float: left;
+	margin-left: 40px;
+}
+
+.bdsharebuttonbox{
+	float: left;
+	margin-left: 40px;
+}
+
+
+.detail-body{
+	width: 800px;
+	padding:30px 5px;
+	border-bottom: 1px dashed #6e6e6e;
+	font-size: 14px;
+	
+}
+
+.detail-body h3{
+	line-height: 50px;
+}
+
+.detail-body p{
+	text-indent: 28px;
+	line-height: 40px;
+}
+
+.detail-body img{
+	display: block;
+	width: 509px;
+	height: 304px;
+	margin: 20px auto;
+}
+
+.detail-footer {
+	margin-top: 30px;
+	font-size: 14px;
+	line-height: 40px;
+	
+}
+
+.detail-footer a{
+	color: black;
+}
+
+.detail-footer a:hover{
+	color: rgb(184,19,0);
+}
+
+
+
+
+/**分享***/
+.bdsharebuttonbox a{width:19px !important; height:18px !important; display:inline-block !important; padding-left:0px !important;margin:0 2px !important;position: relative;top: 4px;}
+.bds_sqq{background:url(../img/share9.png) no-repeat !important; background-position:-49px 0 !important;}
+.bds_weixin{background:url(../img/share9.png) no-repeat !important; background-position:0px 0 !important; margin-left:6px;}
+.bds_tsina{background:url(../img/share9.png) no-repeat !important; background-position:-25px 0 !important;}
+.bds_qzone{background:url(../img/share9.png) no-repeat !important; background-position:-74px 0 !important;}
+.bds_tqq{background:url(../img/share9.png) no-repeat !important; background-position:-98px 0 !important;}
+.bds_more{background:url(../img/share9.png) no-repeat !important; background-position:-123px 0 !important;}
+
+.bdsharebuttonbox a{
+	float: none !important;
+}
+
+
 
 
 
@@ -1147,18 +1396,18 @@ DIV.meneame {
 }
 
 DIV.meneame A {
-	/*BORDER-RIGHT: #ff9600 1px solid;*/
+	BORDER-RIGHT: rgb(241,241,241) 1px solid;
 	PADDING-RIGHT: 7px;
 	BACKGROUND-POSITION: 50% bottom;
-	/*BORDER-TOP: #ff9600 1px solid;*/
+	BORDER-TOP: rgb(241,241,241) 1px solid;
 	PADDING-LEFT: 7px;
 	BACKGROUND-IMAGE: url(meneame.jpg);
 	PADDING-BOTTOM: 5px;
-	/*BORDER-LEFT: #ff9600 1px solid;*/
+	BORDER-LEFT: rgb(241,241,241) 1px solid;
 	COLOR: black;
 	MARGIN-RIGHT: 3px;
 	PADDING-TOP: 5px;
-	/*BORDER-BOTTOM: #ff9600 1px solid;*/
+	BORDER-BOTTOM: rgb(241,241,241) 1px solid;
 	TEXT-DECORATION: none
 }
 
