@@ -1007,6 +1007,8 @@ button {
 	height: 42px;
 	margin-right: 212.5px;
 	float: right;
+	font-size: 24px;
+	text-indent: 24px;
 }
 
 .content-right form ul li label{
@@ -1022,8 +1024,9 @@ button {
 	height: 187px;
 	float: right;
 	margin-right: 63.5px;
-	font-size: 14px;
+	font-size: 24px;
 	resize: none;
+	text-indent: 24px;
 }
 
 .content-right form .submit01{

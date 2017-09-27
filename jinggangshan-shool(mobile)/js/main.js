@@ -1,16 +1,16 @@
 
 $(document).ready(function(){
    $(".sli").click(function(e){ 
-   		$(".sidebar").css("left","0rem");  
-    	$(".sidebar-z").css("right","0rem"); 
+   		$(".sidebar").css("right","0rem");  
+    	$(".sidebar-z").css("left","0rem"); 
       e.preventDefault(); 
  	}); 	   
 });
 
 $(document).ready(function(){
    $(".sidebar-z").click(function(){ 
-    $(".sidebar").css("left","-40%");  
-    $(".sidebar-z").css("right","-60%");  
+    $(".sidebar").css("right","-40%");  
+    $(".sidebar-z").css("left","-60%");  
  	}); 	
    $(".sp1").mouseenter(function(){
    		$("#sp2").css("display","none");
